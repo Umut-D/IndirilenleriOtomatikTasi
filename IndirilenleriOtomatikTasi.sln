@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndirilenleriOtomatikTasi", "IndirilenleriOtomatikTasi\IndirilenleriOtomatikTasi.csproj", "{9600ECCD-25D7-488A-BC44-D82D99A3EF0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IslemLibrary", "IslemLibrary\IslemLibrary.csproj", "{31ED48BE-AAF9-4F89-84DB-5E607084C158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9600ECCD-25D7-488A-BC44-D82D99A3EF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9600ECCD-25D7-488A-BC44-D82D99A3EF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9600ECCD-25D7-488A-BC44-D82D99A3EF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9600ECCD-25D7-488A-BC44-D82D99A3EF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31ED48BE-AAF9-4F89-84DB-5E607084C158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31ED48BE-AAF9-4F89-84DB-5E607084C158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31ED48BE-AAF9-4F89-84DB-5E607084C158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31ED48BE-AAF9-4F89-84DB-5E607084C158}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7DF9C91-2333-4900-882D-FD4B6EDE44E1}
+	EndGlobalSection
+EndGlobal
