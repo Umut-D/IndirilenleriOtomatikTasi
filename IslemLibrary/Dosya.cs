@@ -13,25 +13,20 @@
         {
             Tarih tarih = new Tarih();
             FileInfo dosyaBilgi = new FileInfo(_dizin);
-            string hedefDizin;
             switch (dosyaBilgi.Extension)
             {
                 case ".doc" or ".docx" or ".xls" or ".xlsx" or ".ppt" or ".pptx" or ".txt":
-                    hedefDizin = HedefDizin.Belgelerim;
-                    Tasi(hedefDizin, dosyaBilgi);
-                    return tarih.Yazdir(e, nameof(hedefDizin));
+                    Tasi(HedefDizin.Belgelerim, dosyaBilgi);
+                    return tarih.Yazdir(e, nameof(HedefDizin.Belgelerim));
                 case ".jpg" or ".jpeg" or ".png" or ".gif":
-                    hedefDizin = HedefDizin.Resimlerim;
-                    Tasi(hedefDizin, dosyaBilgi);
-                    return tarih.Yazdir(e, nameof(hedefDizin));
+                    Tasi(HedefDizin.Resimlerim, dosyaBilgi);
+                    return tarih.Yazdir(e, nameof(HedefDizin.Resimlerim));
                 case ".mp3" or ".wav":
-                    hedefDizin = HedefDizin.Muziklerim;
-                    Tasi(hedefDizin, dosyaBilgi);
-                    return tarih.Yazdir(e, nameof(hedefDizin));
+                    Tasi(HedefDizin.Muziklerim, dosyaBilgi);
+                    return tarih.Yazdir(e, nameof(HedefDizin.Muziklerim));
                 case ".mp4" or ".avi" or ".mov":
-                    hedefDizin = HedefDizin.Videolar;
-                    Tasi(hedefDizin, dosyaBilgi);
-                    return tarih.Yazdir(e, nameof(hedefDizin));
+                    Tasi(HedefDizin.Videolar, dosyaBilgi);
+                    return tarih.Yazdir(e, nameof(HedefDizin.Videolar));
                 default:
                     return string.Empty;
             }
